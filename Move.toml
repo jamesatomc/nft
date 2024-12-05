@@ -1,0 +1,14 @@
+[package]
+name = "kanari_network100"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/rooch-network/rooch.git", subdir = "frameworks/move-stdlib", rev = "main" }
+MoveosStdlib = { git = "https://github.com/rooch-network/rooch.git", subdir = "frameworks/moveos-stdlib", rev = "main" }
+RoochFramework = { git = "https://github.com/rooch-network/rooch.git", subdir = "frameworks/rooch-framework", rev = "main" }
+
+[addresses]
+kanari_network100 = "0xe454cffdfccf8e4d03030083339fa29356040cee45fd3a51f5046abeaba0681a"
+std = "0x1"
+moveos_std = "0x2"
+rooch_framework = "0x3"
